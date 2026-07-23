@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_rle_by_groups",
+  "source_file": "utl-rle-run-length-encoding-by-groups-in-sas-and-r.sas",
+  "source_blob_sha": "5e5ccf4a8c72b3b39fe7ea34f742596544a668d3",
+  "source_commit": "9bcc650ff4722ae847b08ce2906529ad7718c89a",
+  "notes": "Run-length-encoding-by-groups SAS solution: author's cards data (x/duration) verbatim, DoW loop (do until(last.x); set have; by x notsorted;) summing DURATION per contiguous run into want(x,tot). Dropped libname sd1 'd:/sd1' so it runs against WORK. Produces the author's documented result: w=3, i=8, w=8, i=6."
+}
